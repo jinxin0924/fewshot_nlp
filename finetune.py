@@ -148,4 +148,5 @@ for epoch in range(epochs):
     print(f'Validation loss: {avg_val_loss}')
     print(f'Accuracy: {avg_val_accuracy:.4f}')
     print('\n')
+
     # save_model(self.saveModel_path + '-' + str(epoch))
